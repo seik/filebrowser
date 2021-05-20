@@ -1,4 +1,6 @@
 FROM filebrowser/filebrowser:latest
 
-CMD umask 0000
+COPY entrypoint /entrypoint
+
+ENTRYPOINT ["/entrypoint"]
 
