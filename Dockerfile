@@ -1,4 +1,4 @@
 FROM filebrowser/filebrowser:latest
 
-CMD umask 000
+CMD umask 0000
 
