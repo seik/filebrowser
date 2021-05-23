@@ -1,6 +1,5 @@
 FROM filebrowser/filebrowser:latest
 
-COPY entrypoint /entrypoint
-
+COPY ./entrypoint entrypoint
 ENTRYPOINT ["/entrypoint"]
 
